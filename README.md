@@ -19,17 +19,29 @@ A basic user management service built with .NET to understand core concepts and 
 - Redis (caching)
 - Docker
 
+## Architecture
+![architecture](reference.png)
+inspired by [OneReview](https://www.youtube.com/watch?v=Ms0dFXx3OMc)
+
 ## Getting Started
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/dotnet-user-service
-
-# Navigate to project directory
-cd dotnet-user-service
-
-# Run using Docker
 WIP
 ```
+
+## Initiating Project
+1) dotnet new sln  --name ServiceName 
+2) mkdir src (create source folder)
+3) mkdir tests (create test folder)
+4) dotnet new webapi -o ServiceName
+5) dotnet new editorconfig
+6) dotnet new globaljson --roll-forward latestMinor --sdk-version 9.0.0
+7) dotnet new gitignore
+8) dotnet sln add **/**.csproj (create project for the solution)
+9) clean unnecessary files/syntax (obj folder, http file, clean the program.cs)
+10) add src/Controllers folder (business logic)
+11) add src/Domain folder (data layer)
+12) add src/Services (interaction with database or 3rd party)
+13) add src/Persistance (database)
 
 ## API Documentation
 Swagger UI available at: `http://localhost:5000/swagger`
