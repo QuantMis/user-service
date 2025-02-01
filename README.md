@@ -21,6 +21,7 @@ A basic user management service built with .NET to understand core concepts and 
 
 ## Architecture
 ![architecture](reference.png)
+<br>
 inspired by [OneReview](https://www.youtube.com/watch?v=Ms0dFXx3OMc)
 
 ## Getting Started
