@@ -14,7 +14,7 @@ A basic user management service built with .NET to understand core concepts and 
 
 ## Tech Stack
 - .NET 9.0
-- Entity Framework Core
+- Npgsql Entity Framework Core [https://www.npgsql.org/efcore/?tabs=onconfiguring](https://www.npgsql.org/efcore/?tabs=onconfiguring)
 - SQL Server
 - Redis (caching)
 - Docker
